@@ -224,7 +224,7 @@ useEffect(() => {
 
       <main id="home" className="max-w-5xl mx-auto px-6 md:px-10">
         {/* Hero */}
-        <section className="pt-20 md:pt-28 pb-16 grid md:grid-cols-[1.2fr_0.8fr] gap-10 items-center">
+       <section className="pt-20 md:pt-28 pb-16">
           <div>
             <div className="inline-flex items-center gap-2 text-xs text-stone-500 border border-stone-300 rounded-full px-3 py-1 mb-8 font-body">
               <span className="w-1.5 h-1.5 rounded-full bg-rose-700" />
@@ -258,17 +258,6 @@ useEffect(() => {
             </div>
           </div>
 
-          {/* Photo */}
-          <div className="relative mx-auto md:mx-0">
-            <div className="absolute inset-0 translate-x-3 translate-y-3 bg-rose-100 rounded-[2rem]" />
-            <div className="relative w-56 h-56 md:w-64 md:h-64 rounded-[2rem] bg-stone-200 border border-stone-300 overflow-hidden">
-              <img
-                src="/images/hanin-photo.jpeg"
-                alt="Hanin Al Hajj"
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </div>
         </section>
 
         {/* About */}
